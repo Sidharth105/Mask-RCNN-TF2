@@ -27,7 +27,7 @@ tf.compat.v1.disable_eager_execution()
 
 import tensorflow.keras.backend as K
 import tensorflow.keras.layers as KL
-import tensorflow.keras.engine as KE
+import tensorflow.python.keras.engine as KE
 import tensorflow.keras.models as KM
 
 from tensorflow.keras import Sequential
