@@ -25,10 +25,10 @@ tf.compat.v1.disable_eager_execution()
 # import keras.engine as KE
 # import keras.models as KM
 
-import tensorflow.python.keras.backend as K
-import tensorflow.python.keras.layers as KL
-import tensorflow.python.keras.engine as KE
-import tensorflow.python.keras.models as KM
+import tensorflow.keras.backend as K
+import tensorflow.keras.layers as KL
+import tensorflow.keras.engine as KE
+import tensorflow.keras.models as KM
 
 from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Conv2D, Flatten, Dense
